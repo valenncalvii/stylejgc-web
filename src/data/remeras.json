@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Remera oversize real fresh blanca",
+    "src": [
+      {
+        "src": "realfreshadelantelow.jpg",
+        "alt": "Remera oversize real fresh"
+      },
+      {
+        "src": "realfreshatraslow.jpg",
+        "alt": "Remera de Algodón Orgánico"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Remera oversize kiwi negro",
+    "src": [
+      {
+        "src": "kiwiadelantelow.jpg",
+        "alt": "Remera oversize kiwi negro"
+      },
+      {
+        "src": "kiwiatraslow.jpg",
+        "alt": "Remera oversize kiwi negro"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Remera de Algodón Orgánico",
+    "src": [
+      {
+        "src": "kiwiadelantelow.jpg",
+        "alt": "Remera oversize kiwi negro"
+      },
+      {
+        "src": "kiwiatraslow.jpg",
+        "alt": "Remera oversize kiwi negro"
+      }
+    ]
+  }
+]
