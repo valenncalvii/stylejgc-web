@@ -4,7 +4,8 @@ const ProductCard = ({ id, image1, image2, name }) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
-      className="group relative bg-zinc-900 rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:scale-105 w-full max-w-xs mx-auto"
+      key={id}
+      className="group relative bg-black rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:scale-105 w-full max-w-xs mx-auto"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -20,7 +21,7 @@ const ProductCard = ({ id, image1, image2, name }) => {
           href="https://www.instagram.com/style.jgc"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full bg-white text-black py-2 rounded-md hover:bg-zinc-100 transition text-center block"
+          className="w-full bg-font-special text-font-primary py-2 rounded-md hover:bg-font-special/50 transition text-center block"
         >
           Comprar ahora
         </a>

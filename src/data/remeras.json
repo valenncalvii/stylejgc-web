@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Remera oversize real fresh blanca",
+    "name": "Remera oversize Real Fresh blanca",
     "src": [
       {
         "src": "realfreshadelantelow.jpg",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "name": "Remera oversize kiwi negro",
+    "name": "Remera oversize Be Still negro",
     "src": [
       {
         "src": "kiwiadelantelow.jpg",
@@ -29,15 +29,141 @@
   },
   {
     "id": 3,
-    "name": "Remera de Algodón Orgánico",
+    "name": "Remera oversize Another negra",
     "src": [
       {
-        "src": "kiwiadelantelow.jpg",
-        "alt": "Remera oversize kiwi negro"
+        "src": "AnotherNegraAdelanteLow.jpg",
+        "alt": "Remera oversize Another negra"
       },
       {
-        "src": "kiwiatraslow.jpg",
-        "alt": "Remera oversize kiwi negro"
+        "src": "AnotherNegraAtrasLow.jpg",
+        "alt": "Remera oversize Another negra"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Remera oversize Balenciaga gris",
+    "src": [
+      {
+        "src": "BalenciagaAdelanteLow.jpg",
+        "alt": "Remera oversize Balenciaga gris"
+      },
+      {
+        "src": "BalenciagaAtrasLow.jpg",
+        "alt": "Remera oversize Balenciaga gris"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Remera oversize Duki marron",
+    "src": [
+      {
+        "src": "DukiMarronAdelanteLow.jpg",
+        "alt": "Remera oversize Duki marron"
+      },
+      {
+        "src": "DukiMarronAtrasLow.jpg",
+        "alt": "Remera oversize Duki marron"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Remera oversize Duki negro",
+    "src": [
+      {
+        "src": "DukiNegraAdelanteLow.jpg",
+        "alt": "Remera oversize Duki negro"
+      },
+      {
+        "src": "DukiNegraAtrasLow.jpg",
+        "alt": "Remera oversize Duki negro"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Remera oversize Progress marron",
+    "src": [
+      {
+        "src": "ProgressAdelanteLow.jpg",
+        "alt": "Remera oversize Progress marron"
+      },
+      {
+        "src": "ProgressAtrasLow.jpg",
+        "alt": "Remera oversize Progress marron"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Remera oversize Sometimes azul",
+    "src": [
+      {
+        "src": "SometimesAdelanteLow.jpg",
+        "alt": "Remera oversize sometimes azul"
+      },
+      {
+        "src": "SometimeAtrasLow.jpg",
+        "alt": "Remera oversize sometimes azul"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Remera oversize Vans negro",
+    "src": [
+      {
+        "src": "VansAdelanteLow.jpg",
+        "alt": "Remera oversize Vans negro"
+      },
+      {
+        "src": "VansAtrasLow.jpg",
+        "alt": "Remera oversize Vans negro"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Remera oversize Asking marron",
+    "src": [
+      {
+        "src": "AskingAdelanteLow.jpg",
+        "alt": "Remera oversize Asking marron"
+      },
+      {
+        "src": "AskingAtrasLow.jpg",
+        "alt": "Remera oversize Asking marron"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Remera oversize Trasher negra",
+    "src": [
+      {
+        "src": "RaraAdelanteLow.jpg",
+        "alt": "Remera oversize Trasher negra"
+      },
+      {
+        "src": "RaraAtrasLow.jpg",
+        "alt": "Remera oversize Trasher negra"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Remera oversize Take Time negro",
+    "src": [
+      {
+        "src": "TakeTimeAdelanteLow.jpg",
+        "alt": "Remera oversize Take Time negro"
+      },
+      {
+        "src": "TakeTimeAtrasLow.jpg",
+        "alt": "Remera oversize Take Time negro"
       }
     ]
   }
