@@ -1,0 +1,20 @@
+#slider {
+  scrollbar-width: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
+
+  &::scroll-button(*) {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid #999;
+    gap: 6px;
+  }
+
+  &::scroll-button(left) {
+    content: "<" / "scroll left";
+    position: absolute;
+    left: 4px;
+  }
+}
