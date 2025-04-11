@@ -70,7 +70,7 @@ function App() {
       <footer>
         <div className="bg-primary flex flex-col justify-center items-center text-white text-center py-4">
           <p className="font-family">
-            © 2023 style JGC. Todos los derechos reservados.
+            © 2025 Style JGC. Todos los derechos reservados.
           </p>
 
           <a
