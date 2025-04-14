@@ -45,10 +45,11 @@ const ProductCard = ({ id, image1, image2, name }) => {
       )}
 
       <div className="p-4 flex flex-col items-center text-center">
-        <h3 className="text-lg font-family text-white mb-2">{name}</h3>
+        <h2 className="text-lg font-family text-white mb-2">{name}</h2>
         <a
           href="https://www.instagram.com/style.jgc"
           target="_blank"
+          aria-label="Comprar ahora"
           rel="noopener noreferrer"
           className="w-full bg-font-special text-font-primary py-2 rounded-md hover:bg-font-special/50 transition text-center block"
         >

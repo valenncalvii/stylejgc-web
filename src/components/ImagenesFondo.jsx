@@ -12,7 +12,7 @@ const ImagenesFondo = () => {
   useEffect(() => {
     const intervalo = setInterval(() => {
       setIndex((prev) => (prev + 1) % imagenes.length);
-    }, 2500); // cada 3 segundos
+    }, 2000); // cada 3 segundos
 
     return () => clearInterval(intervalo); // limpia el intervalo al desmontar
   }, []);

@@ -44,19 +44,6 @@ function App() {
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-7">
             {remeras.map((remera) =>
-              /*<div
-              key={remera.id}
-              className="bg-white shadow-lg rounded-lg p-4 m-4 max-w-sm overflow-hidden"
-            >
-              <img
-                src={remera.src}
-                alt={remera.name}
-                className="w-full h-48 object-cover rounded-t-lg"
-              />
-              <h2 className="text-xl font-bold mt-2">{remera.name}</h2>
-              <p className="text-gray-700">{remera.description}</p>
-              <p className="text-lg font-bold mt-2">${remera.price}</p>
-            </div>*/
               ProductCard({
                 id: remera.id,
                 image1: remera.src[0].src,
@@ -72,12 +59,12 @@ function App() {
           <p className="font-family">
             © 2025 Style JGC. Todos los derechos reservados.
           </p>
-
           <a
             href="https://www.instagram.com/style.jgc"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-gray-400 transition duration-300"
+            aria-label="Ir al perfil de Instagram de Style JGC"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
