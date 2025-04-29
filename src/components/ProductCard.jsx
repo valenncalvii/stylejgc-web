@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const ProductCard = ({ id, image1, image2, name }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -34,7 +34,7 @@ const ProductCard = ({ id, image1, image2, name }) => {
         alt={name}
         className="aspect-square w-full py-2 object-contain rounded-t-xl"
       />
-      {/* Botón solo en mobile */}
+
       {isMobile && (
         <button
           onClick={() => setShowAltImage((prev) => !prev)}

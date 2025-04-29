@@ -2,6 +2,7 @@ import "./App.css";
 import remeras from "./data/remeras.json";
 import ProductCard from "./components/ProductCard";
 import ImagenesFondo from "./components/ImagenesFondo";
+import RemeraSlider from "./components/RemeraSlider";
 
 function App() {
   return (
@@ -40,18 +41,9 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="cards-remeras">
-        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-          <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-7">
-            {remeras.map((remera) =>
-              ProductCard({
-                id: remera.id,
-                image1: remera.src[0].src,
-                image2: remera.src[1].src,
-                name: remera.name,
-              })
-            )}
-          </div>
+      <section className="w-full h-screen bg-primary flex items-center justify-center">
+        <div className="w-full px-4">
+          <RemeraSlider />
         </div>
       </section>
       <footer>
