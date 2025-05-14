@@ -16,7 +16,7 @@ const RemeraSlider = () => {
   };
 
   return (
-    <div className="w-full py-6">
+    <div className="w-full py-10">
       <div className="relative">
         {/* Botón izquierdo */}
         <button
@@ -29,7 +29,7 @@ const RemeraSlider = () => {
         {/* Contenedor scrollable */}
         <div
           ref={scrollRef}
-          className="flex overflow-x-auto no-scrollbar space-x-4 px-4 scroll-smooth"
+          className="flex overflow-x-auto h-120 no-scrollbar space-x-4 p-4 scroll-smooth"
         >
           {remeras.map((remera) => (
             <div className="flex-shrink-0 w-64" key={remera.id}>

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex flex-row items-center justify-evenly border-t-1 border-gray-500 py-4 w-full :flex-col">
+    <footer className="flex flex-col sm:flex-row items-center justify-evenly border-t border-gray-500 py-4 w-full ">
       <div className="flex flex-row gap-5 justify-center items-center text-white text-center">
         <a
           href="https://www.instagram.com/style.jgc"
