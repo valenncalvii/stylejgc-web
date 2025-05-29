@@ -15,29 +15,29 @@
   },
   {
     "id": 2,
-    "name": "Remera oversize Be Still negro",
+    "name": "Remera oversize Brooklyn blanca",
     "src": [
       {
-        "src": "kiwiadelantelow.jpg",
-        "alt": "Remera oversize kiwi negro"
+        "src": "brooklynatraslow.jpg",
+        "alt": "Remera oversize brooklyn blanca"
       },
       {
-        "src": "kiwiatraslow.jpg",
-        "alt": "Remera oversize kiwi negro"
+        "src": "brooklynatraslow.jpg",
+        "alt": "Remera oversize brooklyn blanca"
       }
     ]
   },
   {
     "id": 3,
-    "name": "Remera oversize Another negra",
+    "name": "Remera oversize Black mamba blanca",
     "src": [
       {
-        "src": "AnotherNegraAdelanteLow.jpg",
-        "alt": "Remera oversize Another negra"
+        "src": "blackmambaatraslow.jpg",
+        "alt": "Remera oversize Black mamba blanca"
       },
       {
-        "src": "AnotherNegraAtrasLow.jpg",
-        "alt": "Remera oversize Another negra"
+        "src": "blackmambaatraslow.jpg",
+        "alt": "Remera oversize Black mamba blanca"
       }
     ]
   },
@@ -83,34 +83,7 @@
       }
     ]
   },
-  {
-    "id": 7,
-    "name": "Remera oversize Progress marron",
-    "src": [
-      {
-        "src": "ProgressAdelanteLow.jpg",
-        "alt": "Remera oversize Progress marron"
-      },
-      {
-        "src": "ProgressAtrasLow.jpg",
-        "alt": "Remera oversize Progress marron"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Remera oversize Sometimes azul",
-    "src": [
-      {
-        "src": "SometimesAdelanteLow.jpg",
-        "alt": "Remera oversize sometimes azul"
-      },
-      {
-        "src": "SometimeAtrasLow.jpg",
-        "alt": "Remera oversize sometimes azul"
-      }
-    ]
-  },
+
   {
     "id": 9,
     "name": "Remera oversize Vans negro",
